@@ -28,7 +28,7 @@ def forward_index():
     f3 = open("D:\LastSemester\IR\PycharmProjects\docids.txt", 'w+', encoding='utf-8')
     f1 = open("D:\LastSemester\IR\PycharmProjects\\termids.txt", 'w+', encoding='utf-8')
     f2 = open("D:\LastSemester\IR\stoplist.txt", 'r', encoding='utf-8')
-    f4 = open("D:\LastSemester\IR\PycharmProjects\doc_index.txt", 'w+', encoding='utf-8')
+    f4 = open("D:\LastSemester\IR\PycharmProjects\docindex.txt", 'w+', encoding='utf-8')
     present = False
     docid = 1
     termid = 1
@@ -101,7 +101,6 @@ def forward_index():
     f1.close()
     f3.close()
     f4.close()
-
 
 if __name__ == '__main__':
     forward_index()
